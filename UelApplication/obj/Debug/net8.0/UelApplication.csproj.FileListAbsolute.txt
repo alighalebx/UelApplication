@@ -91,3 +91,4 @@ C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Debug\net8.0\runti
 C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\aligh\source\repos\UelApplication\UelApplication\obj\Debug\net8.0\UelApplication.sourcelink.json

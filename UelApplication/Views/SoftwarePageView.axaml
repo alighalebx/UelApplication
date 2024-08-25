@@ -7,30 +7,71 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UelApplication.Views.SoftwarePageView"
              x:DataType="vm:SoftwarePageViewModel">
-    
+
     <ScrollViewer>
         <StackPanel Margin="20">
             <TextBlock Margin="0 20" FontSize="20" FontWeight="Bold">Software Engineering</TextBlock>
-    
-            <ComboBox Name="CourseSelector" 
-                      Width="400"
-                      PlaceholderText="Select a Course" 
-                      HorizontalAlignment="Center"/>
-        
-            <Button Name="UploadButton" 
-                    Content="Upload Files" 
-                    Width="200" 
-                    HorizontalAlignment="Center" 
-                    Margin="20" 
-                    Click="UploadButton_Click"/>
 
-            <Button Name="GenerateButton" 
-                    Content="Generate Document" 
-                    Width="200" 
-                    HorizontalAlignment="Center" 
-                    Margin="20" 
-                    Click="GenerateButton_Click"/>            <templates:ContentExample>
-            </templates:ContentExample>
+            <!-- Name in one row -->
+            <TextBlock Margin="0 5">Name:</TextBlock>
+            <TextBox Name="UserName" Watermark="Enter your name"/>
+
+            <!-- AsuId and UelId in one row -->
+            <Grid Margin="0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                    <TextBlock Margin="0 5">AsuId:</TextBlock>
+                    <TextBox Name="AsuId" Watermark="Enter your ID"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column="1">
+                    <TextBlock Margin="0 5">UelId:</TextBlock>
+                    <TextBox Name="UelId" Watermark="Enter your ID"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Semester and AcademicYear in one row -->
+            <Grid Margin="0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column="0" Margin="0 0 10 0">
+                    <TextBlock Margin="0 5">Semester:</TextBlock>
+                    <TextBox Name="Semester" Watermark="Enter your Semester"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column="1">
+                    <TextBlock Margin="0 5">AcademicYear:</TextBlock>
+                    <TextBox Name="AcademicYear" Watermark="Enter your AcademicYear"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- SubmissionDate in one row, or you can add another field to this row -->
+            <Grid Margin="0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Margin="0 5">SubmissionDate:</TextBlock>
+                    <TextBox Name="SubmissionDate" Watermark="Enter your SubmissionDate"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Course in one row -->
+            <TextBlock Margin="20 0 5 5">Select a Course:</TextBlock>
+            <ComboBox Name="CourseSelector" Width="400" HorizontalAlignment="Center"/>
+
+            <!-- Buttons -->
+            <Button Name="UploadButton" Content="Upload Files" Width="200" HorizontalAlignment="Center" Margin="20" Click="UploadButton_Click"/>
+            <Button Name="GenerateButton" Content="Generate Document" Width="200" HorizontalAlignment="Center" Margin="20" Click="GenerateButton_Click"/>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

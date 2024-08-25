@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\aligh\\source\\repos\\UelApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -30,11 +37,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAJQTAAAAAAAAAAAjwKkTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-24T17:33:23.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "doc.cs",
+              "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\doc.cs",
+              "RelativeDocumentMoniker": "UelApplication\\doc.cs",
+              "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\doc.cs",
+              "RelativeToolTip": "UelApplication\\doc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T17:33:12.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomePageView.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\HomePageView.axaml",
               "RelativeDocumentMoniker": "UelApplication\\Views\\HomePageView.axaml",
@@ -46,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "UelApplication\\Views\\MainWindow.axaml.cs",
@@ -59,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\App.axaml",
               "RelativeDocumentMoniker": "UelApplication\\App.axaml",
@@ -70,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "UelApplication\\Views\\MainWindow.axaml",
@@ -82,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "UelApplication\\ViewModels\\MainWindowViewModel.cs",
