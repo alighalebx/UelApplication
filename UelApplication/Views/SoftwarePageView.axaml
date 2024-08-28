@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:templates="clr-namespace:UelApplication.Templates"
              xmlns:vm="clr-namespace:UelApplication.ViewModels"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="720"
              x:Class="UelApplication.Views.SoftwarePageView"
              x:DataType="vm:SoftwarePageViewModel">
 
@@ -14,7 +14,7 @@
 
             <!-- Name in one row -->
             <TextBlock Margin="0 5">Name:</TextBlock>
-            <TextBox Name="UserName" Watermark="Enter your name"/>
+            <TextBox Text="{Binding UserName}" Name="UserName" Watermark="Enter your name"/>
 
             <!-- AsuId and UelId in one row -->
             <Grid Margin="0 10">
@@ -25,12 +25,12 @@
                 
                 <StackPanel Grid.Column="0" Margin="0 0 10 0">
                     <TextBlock Margin="0 5">AsuId:</TextBlock>
-                    <TextBox Name="AsuId" Watermark="Enter your ID"/>
+                    <TextBox Text="{Binding AsuId}" Name="AsuId" Watermark="Enter your ID"/>
                 </StackPanel>
                 
                 <StackPanel Grid.Column="1">
                     <TextBlock Margin="0 5">UelId:</TextBlock>
-                    <TextBox Name="UelId" Watermark="Enter your ID"/>
+                    <TextBox Text="{Binding UelId}" Name="UelId" Watermark="Enter your ID"/>
                 </StackPanel>
             </Grid>
 
@@ -43,12 +43,12 @@
                 
                 <StackPanel Grid.Column="0" Margin="0 0 10 0">
                     <TextBlock Margin="0 5">Semester:</TextBlock>
-                    <TextBox Name="Semester" Watermark="Enter your Semester"/>
+                    <TextBox Text="{Binding Semester}" Name="Semester" Watermark="Enter your Semester"/>
                 </StackPanel>
                 
                 <StackPanel Grid.Column="1">
                     <TextBlock Margin="0 5">AcademicYear:</TextBlock>
-                    <TextBox Name="AcademicYear" Watermark="Enter your AcademicYear"/>
+                    <TextBox Text="{Binding AcademicYear}" Name="AcademicYear" Watermark="Enter your AcademicYear"/>
                 </StackPanel>
             </Grid>
 
@@ -61,17 +61,63 @@
 
                 <StackPanel Grid.Column="0">
                     <TextBlock Margin="0 5">SubmissionDate:</TextBlock>
-                    <TextBox Name="SubmissionDate" Watermark="Enter your SubmissionDate"/>
+                    <TextBox Text="{Binding SubmissionDate}" Name="SubmissionDate" Watermark="Enter your SubmissionDate"/>
                 </StackPanel>
             </Grid>
 
             <!-- Course in one row -->
             <TextBlock Margin="20 0 5 5">Select a Course:</TextBlock>
-            <ComboBox Name="CourseSelector" Width="400" HorizontalAlignment="Center"/>
+      
+            <ComboBox ItemsSource="{Binding Courses}" 
+                      SelectedItem="{Binding SelectedCourse}" 
+                      Width="400" 
+                      MaxDropDownHeight="300">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
 
             <!-- Buttons -->
-            <Button Name="UploadButton" Content="Upload Files" Width="200" HorizontalAlignment="Center" Margin="20" Click="UploadButton_Click"/>
-            <Button Name="GenerateButton" Content="Generate Document" Width="200" HorizontalAlignment="Center" Margin="20" Click="GenerateButton_Click"/>
+            
+            <Button Name="UploadButton" Content="Upload Files" Width="200" HorizontalAlignment="Center" Margin="20" Click="UploadFilesButton_Click"/>
+            <!-- Section Management -->
+            <StackPanel>
+                <!-- Section Name and Add Button -->
+                <TextBox Text="{Binding SectionName}" Watermark="Enter Section Name" Width="200" Margin="10"/>
+                <Button Content="Add Section" Click="AddSectionButton_Click" Width="200" Margin="10"/>
+
+                <!-- Sections List -->
+                <ListBox ItemsSource="{Binding Sections}" SelectionMode="Single" Margin="10">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <!-- Section Header with Name and Delete Button -->
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Name}" Margin="0,0,10,0"/>
+                                    <Button Content="Upload Files" Click="UploadFilesButton_Click" Margin="0,0,10,0"/>
+                                    <Button Content="Delete Section" Click="DeleteSectionButton_Click"/>
+                                </StackPanel>
+
+                                <!-- List of Uploaded Files -->
+                                <ListBox ItemsSource="{Binding Files}" Margin="20,0,0,0">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding .}" Margin="0,0,10,0"/>
+                                                <Button Content="Remove" Click="RemoveFileButton_Click"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                </ListBox>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+            <Button Content="Generate Document" Command="{Binding GenerateCommand}" Width="200" Margin="20"/>
+
         </StackPanel>
     </ScrollViewer>
 </UserControl>

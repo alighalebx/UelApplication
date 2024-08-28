@@ -16,7 +16,8 @@
           "CommunityToolkit.Mvvm": "8.2.1",
           "PDFtoImage": "4.1.0",
           "SkiaSharp": "3.0.0-preview.4.1",
-          "Spire.Doc": "12.8.2"
+          "Spire.Doc": "12.8.2",
+          "Spire.PDF": "10.8.1"
         },
         "runtime": {
           "UelApplication.dll": {}
@@ -542,6 +543,18 @@
           }
         }
       },
+      "Spire.PDF/10.8.1": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Pdf.dll": {
+            "assemblyVersion": "10.8.1.0",
+            "fileVersion": "10.8.1.1360"
+          }
+        }
+      },
       "Sungaila.PDFium.BlazorWebAssembly/128.0.6569": {},
       "System.Drawing.Common/6.0.0": {
         "dependencies": {
@@ -910,6 +923,13 @@
       "sha512": "sha512-hbOoseqHJ6T1fQ4zkJy0V1qGY2SU247yXWZlQtX+WJrYEtsDrYdG2wr0r8pZZacr7uqR+YoXU2iiayu5eO4PMg==",
       "path": "spire.doc/12.8.2",
       "hashPath": "spire.doc.12.8.2.nupkg.sha512"
+    },
+    "Spire.PDF/10.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tslgFYDi0JdE3oFFGt8GFE7kKlaQZgn3D4ZDrB1/EZq7oDkR8vd1DIHDQPOoTUFcvEHU2vncqYkjaIHc92nXtg==",
+      "path": "spire.pdf/10.8.1",
+      "hashPath": "spire.pdf.10.8.1.nupkg.sha512"
     },
     "Sungaila.PDFium.BlazorWebAssembly/128.0.6569": {
       "type": "package",

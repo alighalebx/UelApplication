@@ -85,6 +85,10 @@
             "Spire.Doc": {
               "target": "Package",
               "version": "[12.8.2, )"
+            },
+            "Spire.PDF": {
+              "target": "Package",
+              "version": "[10.8.1, )"
             }
           },
           "imports": [
