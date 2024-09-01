@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="UelApplication/App.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Assets/Icons.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Templates/ContentExample.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/ArtificialIntelligencePageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/ButtonPageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/CyberSecurityPageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/DigitalMultiMediaPageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/HomePageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/MainWindow.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/SoftwarePageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/SoftwareView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/TextPageView.axaml" value="UelApplication/UelApplication.csproj" />
+        <entry key="UelApplication/Views/ValueSelectionPageView.axaml" value="UelApplication/UelApplication.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

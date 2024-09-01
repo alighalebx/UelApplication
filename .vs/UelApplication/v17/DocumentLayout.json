@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\aligh\\source\\repos\\UelApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\uelapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\uelapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\uelapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|solutionrelative:uelapplication\\uelapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C973E91-2510-4819-ACF5-0568DE144ED9}|UelApplication\\UelApplication.csproj|c:\\users\\aligh\\source\\repos\\uelapplication\\uelapplication\\views\\softwarepageview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,11 +57,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "UelApplication\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\ViewLocator.cs",
+              "RelativeToolTip": "UelApplication\\ViewLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:22:55.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Program.cs",
+              "RelativeDocumentMoniker": "UelApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Program.cs",
+              "RelativeToolTip": "UelApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:22:47.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UelApplication",
+              "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\UelApplication.csproj",
+              "RelativeDocumentMoniker": "UelApplication\\UelApplication.csproj",
+              "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\UelApplication.csproj",
+              "RelativeToolTip": "UelApplication\\UelApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T00:22:36.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UelApplication",
+              "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\UelApplication.csproj",
+              "RelativeDocumentMoniker": "UelApplication\\UelApplication.csproj",
+              "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\UelApplication.csproj",
+              "RelativeToolTip": "UelApplication\\UelApplication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T00:22:15.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SoftwarePageView.axaml.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\SoftwarePageView.axaml.cs",
               "RelativeDocumentMoniker": "UelApplication\\Views\\SoftwarePageView.axaml.cs",
@@ -58,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -66,37 +133,35 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAJQTAAAAAAAAAAAjwKkTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-08-24T17:33:23.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T17:33:23.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "doc.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\doc.cs",
               "RelativeDocumentMoniker": "UelApplication\\doc.cs",
               "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\doc.cs",
               "RelativeToolTip": "UelApplication\\doc.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwFcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T17:33:12.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "HomePageView.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\HomePageView.axaml",
               "RelativeDocumentMoniker": "UelApplication\\Views\\HomePageView.axaml",
               "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\HomePageView.axaml",
               "RelativeToolTip": "UelApplication\\Views\\HomePageView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-24T17:32:50.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T17:32:50.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "UelApplication\\Views\\MainWindow.axaml.cs",
@@ -104,12 +169,11 @@
               "RelativeToolTip": "UelApplication\\Views\\MainWindow.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:13:51.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T09:13:51.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\App.axaml",
               "RelativeDocumentMoniker": "UelApplication\\App.axaml",
@@ -120,19 +184,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "UelApplication\\Views\\MainWindow.axaml",
               "ToolTip": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\Views\\MainWindow.axaml",
               "RelativeToolTip": "UelApplication\\Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-24T08:59:27.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T08:59:27.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\aligh\\source\\repos\\UelApplication\\UelApplication\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "UelApplication\\ViewModels\\MainWindowViewModel.cs",
@@ -140,7 +203,8 @@
               "RelativeToolTip": "UelApplication\\ViewModels\\MainWindowViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T08:59:26.078Z"
+              "WhenOpened": "2024-08-24T08:59:26.078Z",
+              "EditorCaption": ""
             }
           ]
         }

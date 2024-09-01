@@ -1,0 +1,6 @@
+C:\Users\aligh\OneDrive\Desktop\New folder\UelApplication.pdb
+C:\Users\aligh\OneDrive\Desktop\New folder\av_libglesv2.dll
+C:\Users\aligh\OneDrive\Desktop\New folder\pdfium.dll
+C:\Users\aligh\OneDrive\Desktop\New folder\libHarfBuzzSharp.dll
+C:\Users\aligh\OneDrive\Desktop\New folder\libSkiaSharp.dll
+C:\Users\aligh\OneDrive\Desktop\New folder\UelApplication.exe

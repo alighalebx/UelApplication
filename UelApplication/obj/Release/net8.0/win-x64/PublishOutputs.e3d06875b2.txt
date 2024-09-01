@@ -1,0 +1,6 @@
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\UelApplication.pdb
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\av_libglesv2.dll
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\pdfium.dll
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\libHarfBuzzSharp.dll
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\libSkiaSharp.dll
+C:\Users\aligh\source\repos\UelApplication\UelApplication\bin\Release\net8.0\win-x64\publish\UelApplication.exe
